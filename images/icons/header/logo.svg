@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="85" viewBox="0 0 111 85">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_1" data-name="Retângulo 1" width="111" height="85" transform="translate(14 11)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="logomarca" transform="translate(-14 -11)" clip-path="url(#clip-path)">
+    <g id="Camada_2" data-name="Camada 2" transform="translate(2.163 11.738)">
+      <g id="Camada_1" data-name="Camada 1">
+        <path id="Caminho_1" data-name="Caminho 1" d="M18.447,25.25c0,13.908,44.646,25.182,11.436,25.182-9.961,0-18.034-11.273-18.034-25.182S19.929.4,29.884.068C62.436-1.032,18.447,11.343,18.447,25.25Z" fill="#06b4a5"/>
+        <path id="Caminho_2" data-name="Caminho 2" d="M50.729,46.152c0-13.908-44.646-25.182-11.436-25.182,9.961,0,18.034,11.273,18.034,25.182S49.248,71,39.293,71.334C6.744,72.433,50.729,60.06,50.729,46.152Z" fill="#152e44"/>
+        <text id="pazio" transform="translate(58.824 64.264)" fill="#566573" font-size="33" font-family="PoorRichard-Regular, Poor Richard"><tspan x="0" y="0">pazio</tspan></text>
+        <text id="viagens" transform="translate(58.774 81.525)" fill="#01b3a7" font-size="12" font-family="P22PopArtComic, P22 Pop Art Comic"><tspan x="0" y="0">viagens</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

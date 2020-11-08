@@ -1,4 +1,4 @@
 
 # Spazio Viagens :airplane:
 
-Site developed for the disciplines of Design Practices and PPSI-II at FATEC Baixada Santista
+Website developed entirely in pure HTML and CSS, for the disciplines of Design Practices and PPSI-II of FATEC Baixada Santista

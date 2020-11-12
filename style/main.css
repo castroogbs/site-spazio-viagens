@@ -70,6 +70,7 @@ header section.top div.wraper-right span a{
     cursor: pointer;
     letter-spacing: 2px;
     text-decoration: none;
+    color: var(--darkblue_one);
 }
 
 header section.bottom {

@@ -37,21 +37,7 @@ main section.about div.content p{
     font-weight: 400;
     width: 80%;
     letter-spacing: 3px;
-    margin: 1.5rem 0;
-}
-
-main section.about div.content button{
-    font-family: 'Montserrat';
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 3px;
-    margin: 1.5rem 0;
-    width: 30%;
-    padding: 1rem;
-    color: var(--white);
-    background-color: var(--lightgreen);
-    border: none;
-    cursor: pointer;
+    margin: 1.5rem 0 3rem 0;
 }
 
 main section.services{
@@ -64,7 +50,7 @@ main section.services h1{
     font-weight: 700;
     letter-spacing: 3.5px;
     text-align: center;
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
 }
 
 main section.services > div{

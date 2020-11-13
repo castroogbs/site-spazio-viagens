@@ -210,3 +210,18 @@ footer section.bottom p a {
     text-decoration: none;
     color: var(--darkgray);
 }
+
+
+a.button{
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    width: 30%;
+    padding: 1rem;
+    color: var(--white);
+    background-color: var(--lightgreen);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}

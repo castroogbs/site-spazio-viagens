@@ -1,0 +1,16 @@
+
+section.images{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+section.images div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.images div img{
+    max-width: 352px;
+    margin: 2rem;;
+}

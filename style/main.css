@@ -49,7 +49,7 @@ header section.top h1{
     text-indent: -9999px; 
 }
 
-header section.top div.wraper-center {
+header section.top div.wrapper-center {
     display: flex;
     font-family: 'Montserrat';
     font-weight: 400;
@@ -58,11 +58,11 @@ header section.top div.wraper-center {
     letter-spacing: 5px;
 }
 
-header section.top div.wraper-center span{
+header section.top div.wrapper-center span{
     margin-left: 1.2rem;
 }
 
-header section.top div.wraper-right span a{
+header section.top div.wrapper-right span a{
     padding: 0.3rem 0.8rem;
     border: 2px solid var(--lightgreen);
     font-family: 'Montserrat';
@@ -143,7 +143,7 @@ footer section.top{
     color: var(--white);
 }
 
-footer section.top h1 {
+footer section.top h2 {
     font-family: 'Poppins';
     font-weight: 500;
     color: var(--white);

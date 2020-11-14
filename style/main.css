@@ -215,7 +215,6 @@ footer section.top aside.left p {
     font-weight: 500;
     font-size: 0.8rem;
     display: flex;
-    justify-content: baseline;
     padding: 1rem;
     letter-spacing: 3px;
 }

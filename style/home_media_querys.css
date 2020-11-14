@@ -1,0 +1,58 @@
+@media screen and (max-width: 1181px){
+    main section.banner-principal div.bottom div a img{
+        width: 18rem;
+    }
+
+    main section.banner-principal div.bottom div a{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 770px){
+    main section.parallax h1{
+        font-size: 2rem;
+    }
+    main section.banner-principal div.top h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 570px){
+    main section.parallax form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main section.parallax form input[type=email],
+    main section.parallax form input[type=submit]{
+        margin: 0;
+        font-size: .8rem;
+        margin: 1rem 0;
+    }
+    main section.parallax h1{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    main section.parallax p{
+        font-size: .8rem;
+    }
+    main section.banner-principal div.top{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main section.banner-principal div.top p{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px){
+    main section.banner-principal div.top h1{
+        font-size: 1.3rem;
+    }
+    main section.banner-principal div.top p{
+        font-size: 0.6rem;
+    }
+}

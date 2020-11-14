@@ -33,6 +33,10 @@ a.contrast{
     border-top: 4px solid var(--lightgreen);
 }
 
+a.contrast_mobile{
+    color: var(--darkblue_three) !important;
+}
+
 header section, footer section{
     display: flex;
     flex-basis: 100%;
@@ -47,6 +51,18 @@ header section.top h1{
     height: 3.7rem;
     background-repeat: no-repeat;
     text-indent: -9999px; 
+    font-size: 0.1rem;
+}
+
+header section.bottom h2{
+    display: none;
+    background-image: url('../images/icons/header/logo-icon-white.svg');
+    width: 5.2rem;
+    height: 3.7rem;
+    background-repeat: no-repeat;
+    text-indent: -9999px; 
+    position: absolute;
+    right: 0;
 }
 
 header section.top div.wrapper-center {
@@ -80,12 +96,54 @@ header section.bottom {
      top:0;
  }
 
- header section.bottom nav ul{
+ 
+header section.bottom nav#mobile_menu,
+header section.bottom > img{
+     display: none;
+}
+
+header section.bottom > img{
+    margin-left: 2rem;
+}
+
+header section.bottom nav#mobile_menu{
+    background-color: var(--lightgreen);
+    position: absolute;
+    top: 4rem;
+    z-index: 999;
+    width: 100%;
+}
+
+header section.bottom nav#mobile_menu ul{
+    list-style-type: none;
+    padding: 1rem 0;
+    width:100%;
+}
+
+header section.bottom nav#mobile_menu ul li{
+    padding: .5rem;
+    width: 100%;
+}
+
+header section.bottom nav#mobile_menu ul li a{
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: 3.5px;
+    border-bottom: 2px solid var(--darkblue_three);
+    width: 100%;
+    display: block;
+}
+
+ header section.bottom nav#desktop_menu ul{
      display: flex;
      list-style: none;
  }
 
- header section.bottom nav ul li a{
+ header section.bottom nav#desktop_menu ul li a{
     margin: 0 1.2rem;
     text-decoration: none;
     color: var(--white);
@@ -138,7 +196,7 @@ main section.breadcrumbs p span a:last-child{
  
 footer section.top{
     background-color: var(--darkblue_two);
-    height: 16rem;
+    min-height: 16rem;
     padding: 0 6rem;
     color: var(--white);
 }
@@ -194,7 +252,7 @@ footer section.bottom{
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 0.8rem;
-    height: 4rem;
+    min-height: 4rem;
 }
 
 footer section.bottom ul{

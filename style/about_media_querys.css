@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 1180px){
+    main section.services div div.box h2{
+        font-size: .8rem;
+    }
+    
+    main section.services div div.box p{
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    main section.services > div{
+        flex-direction: row;
+    }
+    
+    main section.services > div > div{
+        flex-direction: column;
+        width: 50%;
+    }
+
+    main section.services div div.box{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    main section.services > div{
+        flex-direction: column;
+    }
+    
+    main section.services > div > div{
+        width: 100%;
+    }
+}

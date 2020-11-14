@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="../logo-icon-white.ico" type="image/x-icon">
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/about.css">
+    <link rel="stylesheet" href="../style/main_media_querys.css">
+    <link rel="stylesheet" href="../style/about_media_querys.css">
 </head>
 <body>
     <header>
@@ -27,10 +29,22 @@
 
         <section class="bottom">
             <h1 style="display:none;"> Navegação</h1>
-            <nav>
+            <nav id="desktop_menu">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="#" class="contrast">Sobre</a></li>
+                    <li><a href="travels.html">Viagens</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <img id="menu_bars" src="../images/icons/header/bars.svg" alt="menu hamburguer">
+            
+            <nav id="mobile_menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#" class="contrast_mobile">Sobre</a></li>
                     <li><a href="travels.html">Viagens</a></li>
                     <li><a href="gallery.html">Galeria</a></li>
                     <li><a href="contact.html">Contato</a></li>
@@ -42,6 +56,8 @@
                 <a href="#"><img src="../images/icons/header/facebook.svg" alt="logo facebook"></a>
                 <a href="#"><img src="../images/icons/header/instagram.svg" alt="logo instagram"></a>
             </aside>
+
+            <h2>Spazio Viagens</h2>
         </section>
     </header>
 
@@ -68,43 +84,45 @@
 
         <section class="services">
             <h1>Nossos Serviços</h1>
-            <div class="top">
-                <div class="box">
-                    <img src="../images/icons/services/medal.svg" alt="ícone de medalha">
-                    <h2>Grande variedade de destinos</h2>
-                    <p>Oferecemos uma extensa variedade de destinos personalizados por todo o globo.</p>
+            <div>
+                <div class="top">
+                    <div class="box">
+                        <img src="../images/icons/services/medal.svg" alt="ícone de medalha">
+                        <h2>Grande variedade de destinos</h2>
+                        <p>Oferecemos uma extensa variedade de destinos personalizados por todo o globo.</p>
+                    </div>
+    
+                    <div class="box">
+                        <img src="../images/icons/services/star.svg" alt="ícone de estrela">
+                        <h2>Qualificados internacionalmente</h2>
+                        <p>Nossa empresa possui certificações nacionais e internacionais de excelência.</p>
+                    </div>
+    
+                    <div class="box">
+                        <img src="../images/icons/services/wallet.svg" alt="ícone de carteira">
+                        <h2>Melhores preços do mercado</h2>
+                        <p>Aqui você encontra as viagens com o melhor custo benefício.</p>
+                    </div>
                 </div>
-
-                <div class="box">
-                    <img src="../images/icons/services/star.svg" alt="ícone de estrela">
-                    <h2>Qualificados internacionalmente</h2>
-                    <p>Nossa empresa possui certificações nacionais e internacionais de excelência.</p>
-                </div>
-
-                <div class="box">
-                    <img src="../images/icons/services/wallet.svg" alt="ícone de carteira">
-                    <h2>Melhores preços do mercado</h2>
-                    <p>Aqui você encontra as viagens com o melhor custo benefício.</p>
-                </div>
-            </div>
-
-            <div class="bottom">
-                <div class="box">
-                    <img src="../images/icons/services/headphone.svg" alt="ícone de fone de ouvido">
-                    <h2>Suporte profissional 24/7</h2>
-                    <p>Você pode sempre contar com um suporte altamente qualificado 24/7.</p>
-                </div>
-
-                <div class="box">
-                    <img src="../images/icons/services/fire.svg" alt="ícone de fogueira">
-                    <h2>Hotéis cinco estrelas em todos os pacotes</h2>
-                    <p>As melhores opções de hospedagem para seja qual for o seu destino.</p>
-                </div>
-
-                <div class="box">
-                    <img src="../images/icons/services/target.svg" alt="ícone de alvo">
-                    <h2>Precisão na escolha do destino</h2>
-                    <p>Nosso sistema permite que você encontre exatamente o destino que você deseja para suas próximas férias.</p>
+    
+                <div class="bottom">
+                    <div class="box">
+                        <img src="../images/icons/services/headphone.svg" alt="ícone de fone de ouvido">
+                        <h2>Suporte profissional 24/7</h2>
+                        <p>Você pode sempre contar com um suporte altamente qualificado 24/7.</p>
+                    </div>
+    
+                    <div class="box">
+                        <img src="../images/icons/services/fire.svg" alt="ícone de fogueira">
+                        <h2>Hotéis cinco estrelas em todos os pacotes</h2>
+                        <p>As melhores opções de hospedagem para seja qual for o seu destino.</p>
+                    </div>
+    
+                    <div class="box">
+                        <img src="../images/icons/services/target.svg" alt="ícone de alvo">
+                        <h2>Precisão na escolha do destino</h2>
+                        <p>Nosso sistema permite que você encontre exatamente o destino que você deseja para suas próximas férias.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -148,6 +166,6 @@
     </footer>
 
 
-    
+    <script src="../js/menu-mobile.js"></script>
 </body>
 </html>

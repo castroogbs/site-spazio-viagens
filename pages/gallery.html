@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../logo-icon-white.ico" type="image/x-icon">
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/gallery.css">
+    <link rel="stylesheet" href="../style/main_media_querys.css">
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@
 
         <section class="bottom">
             <h1 style="display:none;"> Navegação</h1>
-            <nav>
+            <nav id="desktop_menu">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="about.html">Sobre</a></li>
@@ -36,11 +37,25 @@
                 </ul>
             </nav>
 
+            <img id="menu_bars" src="../images/icons/header/bars.svg" alt="menu hamburguer">
+            
+            <nav id="mobile_menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="travels.html">Viagens</a></li>
+                    <li><a href="#" class="contrast_mobile">Galeria</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+
             <aside>
                 <a href="#"><img src="../images/icons/header/youtube.svg" alt="logo youtube"></a>
                 <a href="#"><img src="../images/icons/header/facebook.svg" alt="logo facebook"></a>
                 <a href="#"><img src="../images/icons/header/instagram.svg" alt="logo instagram"></a>
             </aside>
+            
+            <h2>Spazio Viagens</h2>
         </section>
     </header>
 
@@ -107,6 +122,6 @@
     </footer>
 
 
-    
+    <script src="../js/menu-mobile.js"></script>
 </body>
 </html>

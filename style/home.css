@@ -53,6 +53,7 @@ main section.banner-principal div.top span a{
 
 main section.banner-principal div.bottom {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
     top: -3rem;
@@ -68,6 +69,7 @@ main section.banner-principal div.bottom div a{
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 3.5px;
+    margin: 2rem 0;
 }
 
 main section.banner-principal div.bottom div a span{
@@ -76,7 +78,7 @@ main section.banner-principal div.bottom div a span{
 }
 
 main section.banner-principal div.bottom div a img{
-    max-width: 380px;
+    max-width: 24rem;
     height: auto;
 }
 
@@ -120,10 +122,12 @@ main section.parallax form{
     display: flex;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
 }
 
 main section.parallax form input[type=email]{
-    width: 30%;
+    width: 300px;
     border: none;
     padding: 1rem;
     font-family: 'Montserrat';
@@ -140,7 +144,7 @@ main section.parallax form input[type=email]:focus{
 }
 
 main section.parallax form input[type=submit]{
-    width: 15%;
+    width: 200px;
     font-family: 'Montserrat';
     border: none;
     font-size: 1rem;
@@ -149,4 +153,5 @@ main section.parallax form input[type=submit]{
     color: var(--white);
     cursor: pointer;
     background-color: var(--lightgreen);
+    height: 40px;
 }

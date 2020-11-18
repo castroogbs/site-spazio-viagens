@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 1000px){
+    section.travels div.box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.travels div.box > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 720px){
+    section.travels div.box > div{
+        width: 100%;
+    }
+    section.travels div.box > div p{
+        font-size: .8rem;
+    }
+    section.travels div.box img{
+        max-width: 323.4px;
+        height: auto;
+    }
+    section.travels div.box > div a{
+        width: 15rem !important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    section.travels div.box img{
+        max-width: 290px;
+    }
+    section.travels div.box > div a{
+        width: 13rem !important;
+        font-size: .8rem;
+    }
+    section.travels div.box p:last-child{
+        font-size: .8rem;
+    }
+}

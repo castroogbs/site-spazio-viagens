@@ -8,9 +8,10 @@ section.images div{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 section.images div img{
     max-width: 352px;
-    margin: 2rem;;
+    margin: 2rem;
 }

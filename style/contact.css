@@ -5,6 +5,7 @@ main section.dual-box{
     justify-content: space-around;
     align-items: center;
     margin: 2rem 0;
+    flex-wrap: wrap;
 }
 
 main section.dual-box div.box{
@@ -32,7 +33,6 @@ main section.contact-form{
 main section.contact-form > div{
     display: flex;
     width: 80%;
-    /* justify-content: center; */
 }
 
 main section.contact-form > div h1{
@@ -66,6 +66,7 @@ main section.contact-form form{
 main section.contact-form form div{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 main section.contact-form form input[type=text],
@@ -104,7 +105,7 @@ main section.contact-form form textarea:focus{
 }
 
 main section.contact-form form input[type=submit]{
-    max-width: 30%;
+    max-width: 300px;
     font-family: 'Montserrat';
     border: none;
     font-size: 1rem;

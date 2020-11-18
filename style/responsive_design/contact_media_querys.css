@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 800px){
+    main section.dual-box{
+        flex-direction: column;
+
+    }
+    main section.dual-box div.box{
+        margin: 1rem 0;
+    }
+    main section.contact-form > div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    main section.contact-form > div h1{
+        padding-right: 0;
+        border-right: 0;
+    }
+    main section.contact-form > div p{
+        padding: 0;
+        width: 100%;
+    }
+    main section.contact-form form div{
+        flex-direction: column;
+    }
+    main section.contact-form form input[type=text],
+    main section.contact-form form input[type=tel],
+    main section.contact-form form input[type=email]{
+        margin: .5rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    main section.contact-form form input[type=submit]{
+        margin: 1rem auto;
+        font-size: .8rem;
+    }
+    main section.contact-form form input[type=text],
+    main section.contact-form form input[type=tel],
+    main section.contact-form form input[type=email],
+    main section.contact-form form textarea,
+    main section.contact-form > div p{
+        font-size: .8rem;
+    }
+    main section.dual-box div.box{
+        padding: 2rem 1rem;
+    }
+    main section.dual-box div.box p{
+        font-size: .8rem;
+    }
+    main section.contact-form > div h1{
+     font-size: 1.3rem;
+    }
+}

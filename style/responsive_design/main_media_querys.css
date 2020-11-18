@@ -20,6 +20,14 @@
         padding: 0 3rem;
     }
     
+    main section.breadcrumbs h1{
+        font-size: 2rem;
+    }
+
+    main section.breadcrumbs p a{    
+        font-size: .8rem;
+    }
+    
 }
 
 
